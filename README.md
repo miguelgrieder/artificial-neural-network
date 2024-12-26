@@ -1,66 +1,66 @@
 # Artificial Neural Network Project
 
-Este repositório contém a implementação de uma Rede Neural Artificial (ANN) utilizando dados de exemplos para aprendizado supervisionado.
+This repository contains an implementation of an Artificial Neural Network (ANN) using sample datasets for supervised learning.
 
-## Estrutura do Repositório
+## Repository Structure
 
-- `main.ipynb`: Notebook principal com a implementação da rede neural.
-- `diabetes.csv`: Conjunto de dados relacionado a diagnósticos de diabetes.
-- `housing.csv`: Conjunto de dados sobre habitação.
-- `iris.csv`: Conjunto de dados para classificação de flores.
-- `.gitignore`: Arquivo para ignorar arquivos desnecessários no controle de versão.
-- `requirements.txt`: Arquivo contendo as bibliotecas necessárias para a execução
+- `main.ipynb`: Main notebook containing the neural network implementation.
+- `diabetes.csv`: Dataset related to diabetes diagnosis.
+- `housing.csv`: Dataset related to housing.
+- `iris.csv`: Dataset for flower classification.
+- `.gitignore`: File to ignore unnecessary files in version control.
+- `requirements.txt`: File containing the necessary libraries for running the project.
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de iniciar, certifique-se de ter as ferramentas necessárias instaladas:
+Before getting started, make sure you have the necessary tools installed:
 
-- Python 3.7 ou superior
+- Python 3.7 or higher
 - Jupyter Notebook
-- As bibliotecas listadas no arquivo `requirements.txt`
+- The libraries listed in `requirements.txt`
 
-Instale as bibliotecas com o comando:
+Install the required libraries using the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Como Executar
+## How to Run
 
-Siga os passos abaixo para configurar e executar o projeto:
+Follow the steps below to set up and run the project:
 
-1. **Clone o repositório**
-   Baixe o código-fonte do repositório para o seu computador:
-
+1. **Clone the repository**  
+   Download the source code from the repository to your computer:
+   
    ```bash
    git clone https://github.com/miguelgrieder/artificial-neural-network.git
    ```
 
-2. **Configure o ambiente**
-   Certifique-se de ter o Python 3.7 ou superior instalado.
+2. **Set up the environment**  
+   Make sure you have Python 3.7 or higher installed.
 
-3. **Instale as dependências**
-   Instale as bibliotecas necessárias listadas no arquivo `requirements.txt`:
-
+3. **Install dependencies**  
+   Install the necessary libraries listed in `requirements.txt`:
+   
    ```bash
    pip install -r requirements.txt
    ```
 
-   Ou instale manualmente as bibliotecas necessárias:
-
+   Or install the required libraries manually:
+   
    ```bash
    pip install numpy pandas scikit-learn matplotlib tensorflow
    ```
 
-4. **Prepare os dados**
-   Certifique-se de que os arquivos de dados (`diabetes.csv`, `housing.csv`, `iris.csv`) estejam no mesmo diretório do notebook ou atualize os caminhos no código conforme necessário.
+4. **Prepare the data**  
+   Ensure the data files (`diabetes.csv`, `housing.csv`, `iris.csv`) are in the same directory as the notebook, or update the paths in the code as needed.
 
-5. **Execute o notebook**
-   Inicie o Jupyter Notebook e abra o arquivo `main.ipynb`:
-
+5. **Run the notebook**  
+   Launch Jupyter Notebook and open the `main.ipynb` file:
+   
    ```bash
    jupyter notebook main.ipynb
    ```
 
-6. **Execute as células**
-   No Jupyter Notebook, execute cada célula em sequência. O código carregará os dados, treinará os modelos e exibirá os resultados.
+6. **Execute the cells**  
+   In Jupyter Notebook, run each cell in sequence. The code will load the data, train the models, and display the results.
